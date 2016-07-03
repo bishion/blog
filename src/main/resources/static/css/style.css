@@ -332,7 +332,7 @@ nav a#pull {
 .contact_right span{
 	color: #ffffff;
 	font-size: 14px;
-	-webkit-text-stroke: 0.2px;
+	-webkit-text-stroke-width: 0;
 }
 .address li{
 	display: block;
@@ -798,7 +798,7 @@ h2.style{
 	}
 	nav a#pull:after {
 		content:"";
-		background: url('nav-icon.png') no-repeat;
+		background: url('../images/nav-icon.png') no-repeat;
 		width: 30px;
 		height: 30px;
 		display: inline-block;
